@@ -1,0 +1,20 @@
+- name: Home
+  link: /
+- name: About Us
+  link: /about.html
+- name: Services Offered
+  link: /blog.html
+- name: Meet The Therapists
+  link: /meet-the-therapists.html
+- name: Common Questions
+  link: /faq.html
+- name: Privacy Policy
+  link: /provicy-policy.html
+- name: Insurance/EAP
+  link: /insurance.html
+- name: Parenting Tips
+  link: /parenting-tips.html
+- name: Directions
+  link: /directions.html
+- name: Contact Us
+  link: /contact.html

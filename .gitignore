@@ -1,0 +1,11 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+*.DS_Store
+*assets/img
+
+_therapists/*
+!_therapists/.gitkeep
+# !_therapists/therapist-profile-schema.md

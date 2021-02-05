@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>Meet Our Therapists</h1>
+<p>Our staff of highly skilled, fully licensed therapists offers a wide range of backgrounds and expertise to assist our clients with the tools for making better decisions, resolving problems and improving relationships.
+</p>
+<ul>
+    {% for therapist in site.therapists %}
+        <li>
+            <h2><a href="{{therapist.url}}">{{therapist.full_name}}</a></h2>
+
+            <h3>{{therapist.excerpt}}</h3>
+        </li>
+        {% endfor%}
+</ul>
