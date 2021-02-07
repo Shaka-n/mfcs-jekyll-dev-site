@@ -7,9 +7,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milford-Franklin Counseling Services</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-    {% include navigation.html %}
-<h1> Take Back Control of Your Life</h1>
+    <div>
+        {% include navigation.html %}
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <img class="background__image" src="/assets/img/stock/bridge.jpg">
+            <div class="content__container">
+                <p> we're only a phone call away</p>
+                <h1> Milford-Franklin Counseling Services</h1>
+                <form id="covid-info-button" action="/covid-19-updates.html">
+                    <input type="submit" value="COVID-19 Updates" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2> Moving Forward on the Path of Life</h2>
+    </div>
+    <div class="container">
+        <h2>Services Offered</h2>
+    </div>
+    <div class="container">
+        <div id='contact-info__container'>
+            <h2>Contact Us</h2>
+            <p>mfcs-counseling@verizon.net</p>
+            <p>508-473-7400</p>
+            <p>409 Fortune Blvd.</p>
+            <p>Milford, MA 01757</p>
+            <p>To make an appointment, please call (508) 473-7400 to speak with our staff.</p>
+        </div>
+        <div id="contact__form__container">
+            <form id="contact__form" action="mailto:g.s.sahagian@gmail.com">
+                <label>Name*</label>
+                <input type="text" value="First"/>
+                <input type="text" value="Last"/>
+                <label>Message</label>
+                <input type="textarea" value=""/>
+                <input type="submit" value="Submit"/>
+            </form>
+        </div>
+    </div>
+    
 </body>
 </html>
