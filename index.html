@@ -10,47 +10,81 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-    <div>
+    <header>
+        <div class="menu-btn">
+            <span class="menu-btn__burger"></span>
+        </div>
         {% include navigation.html %}
-    </div>
-    <div class="container">
-        <div class="wrapper">
-            <img class="background__image" src="/assets/img/stock/bridge.jpg">
-            <div class="content__container">
-                <p> we're only a phone call away</p>
-                <h1> Milford-Franklin Counseling Services</h1>
-                <form id="covid-info-button" action="/covid-19-updates.html">
-                    <input type="submit" value="COVID-19 Updates" />
-                </form>
+    </header>
+    <main>
+        <section class="hero">
+                    <span class="hero__tagline"> we're only a phone call away</span>
+                    <h1 class="hero__name"> Milford-Franklin Counseling Services</h1>
+                    <form class="covid-info" action="/covid-19-updates.html">
+                        <input class="covid-info__button" type="submit" value="COVID-19 Updates" />
+                    </form>
+        </section>
+        <section class="pitch">
+                <h2 class="pitch__tagline"> Moving Forward on the Path of Life</h2>
+                <p class="pitch__body">Are you experiencing a difficult situation in your life, in your relationship or in your family?
+
+                    Are you feeling overwhelmed by stress and worry, or painful symptoms of depression, and you would like to find peace of mind?
+                    
+                    Is your family stuck in conflict and you would like to find a more positive way to support each other?
+                    
+                    If so you have come to the right place.</p>
+        </section>
+        <section class="services-offered" >
+            <h2 class="services-offered__head">Services Offered</h2>
+                <p class="services-offered__body">Conflict and stress, uncertainty and doubt, are part of life. Sometimes it seems that the problems can't be solved
+                    and that the questins have no answers. The therapists at Milford-Franklin Counseling Services provide confidential
+                    counseling services for adults and children who are faced with personal crisis or emotional problems such as:</p>
+                    <ul class="services-offered__list">
+                        <li class="services-offered__list--item">Depression, Anxiety</li>
+                        <li class="services-offered__list--item">School Adjustment</li>
+                        <li class="services-offered__list--item">Parent-child Problems</li>
+                        <li class="services-offered__list--item">Stress Management</li>
+                        <li class="services-offered__list--item">Low Self-Esteem</li>
+                        <li class="services-offered__list--item">Marital Problems</li>
+                        <li class="services-offered__list--item">Separation and Divorce</li>
+                        <li class="services-offered__list--item">Single Parent and Step-Family Problems</li>
+                        <li class="services-offered__list--item">Family Problems</li>
+                        <li class="services-offered__list--item">Adult Children of Alcoholics</li>
+                        <li class="services-offered__list--item">Women's Issues</li>
+                        <li class="services-offered__list--item">Men's Issues</li>
+                        <li class="services-offered__list--item">LGBTQ Issues</li>
+                        <li class="services-offered__list--item">Sexual Abuse</li>
+                        <li class="services-offered__list--item">Geriatric (aging) Concerns</li>
+                        <li class="services-offered__list--item">Eating Disorders</li>
+                        <li class="services-offered__list--item">Loss and Grief</li>
+                        <li class="services-offered__list--item">Bereaved Parents</li>
+                        <li class="services-offered__list--item">Substance Abuse</li>
+                    </ul>
+        </section>
+        <section class="contact">
+            
+            <div id='contact__body'>
+                <h2 class="contact__body--head">Contact Us</h2>
+                <p class="contact__body--content">
+                    mfcs-counseling@verizon.net
+                508-473-7400</p>
+                <p class="contact__body--content">
+                    409 Fortune Blvd.
+                Milford, MA 01757</p>
+                <p class="contact__body--content">
+                    To make an appointment, please call (508) 473-7400 to speak with our staff.
+                </p>
             </div>
-        </div>
-    </div>
-    <div class="container">
-        <h2> Moving Forward on the Path of Life</h2>
-    </div>
-    <div class="container">
-        <h2>Services Offered</h2>
-    </div>
-    <div class="container">
-        <div id='contact-info__container'>
-            <h2>Contact Us</h2>
-            <p>mfcs-counseling@verizon.net</p>
-            <p>508-473-7400</p>
-            <p>409 Fortune Blvd.</p>
-            <p>Milford, MA 01757</p>
-            <p>To make an appointment, please call (508) 473-7400 to speak with our staff.</p>
-        </div>
-        <div id="contact__form__container">
-            <form id="contact__form" action="mailto:g.s.sahagian@gmail.com">
-                <label>Name*</label>
-                <input type="text" value="First"/>
-                <input type="text" value="Last"/>
-                <label>Message</label>
-                <input type="textarea" value=""/>
-                <input type="submit" value="Submit"/>
-            </form>
-        </div>
-    </div>
-    
+                <form class="contact__form"action="mailto:g.s.sahagian@gmail.com">
+                    <label>Name *</label>
+                    <input class="contact__form--name" type="text" value=""/>
+                    <input class="contact__form--name" type="text" value=""/>
+                    <label>Message *</label>
+                    <input class="contact__form--message" type="textarea" value=""/>
+                    <input type="submit" value="Submit"/>
+                    <label>*Required Field</label>
+                </form>
+        </section>
+    </main>
 </body>
 </html>

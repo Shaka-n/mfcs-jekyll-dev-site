@@ -1,0 +1,21 @@
+.pitch{
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    overflow: scroll;
+    align-items: center;
+    text-align: center;
+
+    &__tagline{
+        color: $secondary-color;
+        font-weight: 600;
+    }
+
+    &__body{
+        padding-top: 4vh;
+        line-height: 1.25rem;
+        // padding-left: 5vw;
+        // padding-right: 5vw;
+    }
+}

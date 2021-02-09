@@ -1,0 +1,45 @@
+.contact{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    overflow: scroll;
+    align-items: center;
+    text-align: center;
+    background: white;
+    color: darkgray;
+    // display:flex;
+
+    &__body{
+        &--head{
+            padding-bottom: 1rem;
+        }
+
+        &--content{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            text-align: left;
+            line-height: 1.25rem;
+        }
+    }
+
+    &__form{
+        padding-top: 1rem;
+        
+        label{
+            margin:auto;
+        }
+
+        &--name{
+            width: 100%;
+            height: 1.25rem;
+            margin-top: 1vh;
+            margin-bottom: 1rem;
+        }
+
+        &--message{
+            width: 100%;
+            height: 60vh;
+        }
+    }
+}

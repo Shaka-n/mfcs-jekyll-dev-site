@@ -1,0 +1,31 @@
+.services-offered{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    overflow: scroll;
+    align-items: center;
+    text-align: center;
+    background: url($services-background-image) center;
+
+    &__head {
+        color: $secondary-color;
+        padding-bottom: 1vh;
+    }
+
+    &__body{
+        padding-bottom: 1rem;
+    }
+
+    ul{
+        padding-left: 1rem;
+        text-align: left;
+        columns: 2;
+        line-height: 1.5rem;
+
+        li{
+            padding-right: 0.3rem;
+        }
+    }
+
+}
