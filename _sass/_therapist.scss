@@ -1,0 +1,38 @@
+
+.therapist {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: white;
+    background-color: white;
+
+
+    
+
+    &__summary{
+        max-width: 40vw;
+        &--photo{
+            height: 30vh;
+      
+        }
+
+        &--clientele{
+            color: black   ;
+        }
+
+        
+    }
+
+    &__bio{
+        display: flex;
+        padding-top: 1rem;
+        margin-block-end: 2rem;
+        
+    }
+
+    ul{
+       padding-left: 2rem;
+       padding-bottom: 2rem;
+    }
+
+}

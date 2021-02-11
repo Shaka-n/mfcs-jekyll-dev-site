@@ -8,9 +8,8 @@ layout: default
 <ul>
     {% for therapist in site.therapists %}
         <li>
-            <h2><a href="{{therapist.url}}">{{therapist.full_name}}</a></h2>
-
-            <h3>{{therapist.excerpt}}</h3>
+            <h2><a href="{{therapist.url}}">{{therapist.name}}</a></h2>
+            <h3>{{therapist.excerpt | markdownify }}</h3>
         </li>
         {% endfor%}
 </ul>
