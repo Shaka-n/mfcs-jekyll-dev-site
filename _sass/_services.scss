@@ -6,15 +6,24 @@
     overflow: scroll;
     align-items: center;
     text-align: center;
-    background: url($services-background-image) center;
+    background: 
+    linear-gradient(
+        to bottom,
+        rgba(black, 0.6),
+        rgba(black, 0.3)
+    ),
+    url($services-background-image) ;
+    background-size: cover;
 
     &__head {
-        color: $secondary-color;
+        font-size: 2rem;
+        color: white;
         padding-bottom: 1vh;
     }
 
     &__body{
         padding-bottom: 1rem;
+        line-height: 1.25rem;
     }
 
     ul{

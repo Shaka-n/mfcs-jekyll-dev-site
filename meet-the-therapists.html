@@ -1,15 +1,19 @@
 ---
 layout: default
 ---
-
-<h1>Meet Our Therapists</h1>
-<p>Our staff of highly skilled, fully licensed therapists offers a wide range of backgrounds and expertise to assist our clients with the tools for making better decisions, resolving problems and improving relationships.
-</p>
-<ul>
-    {% for therapist in site.therapists %}
-        <li>
-            <h2><a href="{{therapist.url}}">{{therapist.name}}</a></h2>
-            <h3>{{therapist.excerpt | markdownify }}</h3>
-        </li>
-        {% endfor%}
-</ul>
+<div class="meet">
+    <div class="meet__head">
+        <h1>Meet Our Therapists</h1>
+        <p>Our staff of highly skilled, fully licensed therapists offers a wide range of backgrounds and expertise to assist our clients with the tools for making better decisions, resolving problems and improving relationships.
+        </p>
+    </div>
+    <div class="meet__list">
+        <ul>
+            {% for therapist in site.therapists %}
+                <li>
+                    <h2><a href="{{therapist.url}}">{{therapist.name}}</a></h2>
+                </li>
+                {% endfor%}
+        </ul>
+    </div>
+</div>

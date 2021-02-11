@@ -14,7 +14,7 @@
     background-size: cover;
 
     &__name{    
-        color: $secondary-color;
+        color: white;
         font-size: 2rem;
         padding-bottom: 1rem;
         margin-top: 1rem;
@@ -23,5 +23,23 @@
     &__tagline{
         color: $secondary-color;
         font-weight: 700;
+    }
+}
+
+.covid-info{
+
+    &__button{
+        color: white;
+        width: 10rem;
+        height: 2rem;
+        border: none;
+        border-radius: 5px;
+        background-color: gray;
+
+        &:hover{
+            color: black;
+            background-color: lightgray;
+            @include transition-ease;
+        }
     }
 }

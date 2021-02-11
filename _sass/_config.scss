@@ -1,12 +1,15 @@
-$primary-color: grey;
-$secondary-color: lightblue;
+$primary-color: #404e4d;
+$secondary-color: #DCEFE7;
 $hero-background-image: "/assets/img/stock/paulius-dragunas-cIxcxnwsnoI-unsplash.jpg";
 $services-background-image: "/assets/img/stock/plants.jpg";
+$meet-the-therapists_banner: "/assets/img/stock/houses.jpg";
+$about_banner: "/assets/img/stock/mountains.jpg";
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 @mixin transition-ease {

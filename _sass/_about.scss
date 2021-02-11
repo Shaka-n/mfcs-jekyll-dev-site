@@ -1,0 +1,32 @@
+.about {
+
+    &__banner{
+        width: 100vw;
+        height: 40vh;
+        background: 
+        linear-gradient(
+            to bottom,
+            rgba($primary-color, 0.5),
+            rgba($primary-color, 0.5)
+        ),
+        url($about_banner) ;
+        background-size: cover;
+        h1 {
+            font-size: 3rem;
+            padding-left: 1rem;
+            padding-top: 1rem;
+        }
+    }
+    h2 {
+        padding-top: 2rem;
+    }
+    p{
+        padding-top: 1rem;
+    }
+
+    &__content{
+
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

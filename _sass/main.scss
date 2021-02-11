@@ -5,6 +5,8 @@
 @import 'contact';
 @import 'menu';
 @import 'therapist';
+@import 'meet-the-therapists';
+@import 'about';
 
 
 body {
@@ -25,7 +27,7 @@ a {
     
 
     &:hover{
-        color: set-text-color($primary-color);
+        color: set-text-color(black);
         @include transition-ease;
     }
 }
@@ -34,6 +36,13 @@ header {
     position: fixed;
     width: 100%;
     padding: 1rem;
+
+    .logo{
+        height: 15vh;
+        padding: 0.5rem;
+        align-self: left;
+        background-color: rgba(white, 0.4);
+    }
 }
     
 main {
