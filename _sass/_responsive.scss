@@ -1,0 +1,63 @@
+@include media-md {
+
+    .call-button{
+        position: absolute;
+        z-index: 1;
+        display:inline-block;
+        top: 6vh;
+        margin-right: 4rem;
+        color: white;
+        width: 5.5rem;
+        height: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-radius: 5px;
+        background-color: gray;
+        text-align: center;
+        cursor: pointer;
+        
+    
+        &:hover{
+            background-color: lightgray;
+            @include transition-ease;
+        }
+    
+        a{
+            text-decoration: none;
+            
+            &:hover{
+                color: black;
+                background-color: lightgray;
+                @include transition-ease;
+            }
+    
+        }
+        
+    }
+
+    .menu-btn {
+        visibility: hidden;
+    }
+
+    .nav {
+        visibility: visible;
+
+        .menu-nav {
+            display: block;
+            transform: translateY(0);
+            height: 100%;
+            background: transparent;
+            text-align: right;
+
+            &__item{
+                display: inline;
+                padding-right: 1.5rem;
+            }
+
+            &__link{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+

@@ -16,13 +16,19 @@
     
 
     &:hover{
-        color: black;
         background-color: lightgray;
         @include transition-ease;
     }
 
     a{
         text-decoration: none;
+        
+        &:hover{
+            color: black;
+            background-color: lightgray;
+            @include transition-ease;
+        }
+
     }
     
 }

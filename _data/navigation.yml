@@ -2,8 +2,8 @@
   link: /
 - name: About Us
   link: /about.html
-- name: Services Offered
-  link: /blog.html
+# - name: Services Offered
+#   link: /blog.html
 - name: Meet The Therapists
   link: /meet-the-therapists.html
 # - name: Common Questions
