@@ -24,6 +24,30 @@
         color: $secondary-color;
         font-weight: 700;
     }
+    
+    .call-button{
+        color: white;
+        width: 5.5rem;
+        height: 2rem;
+        border: none;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-radius: 5px;
+        background-color: gray;
+        text-align: center;
+        justify-content: center;
+    
+        &:hover{
+            color: black;
+            background-color: lightgray;
+            @include transition-ease;
+        }
+    
+        a{
+            text-decoration: none;
+        }
+        
+    }
 }
 
 .covid-info{
@@ -43,3 +67,4 @@
         }
     }
 }
+
