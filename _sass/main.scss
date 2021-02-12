@@ -7,13 +7,14 @@
 @import 'therapist';
 @import 'meet-the-therapists';
 @import 'about';
-
+@import 'covid';
+@import 'call';
 
 body {
     background-color: $primary-color;
     color: set-text-color($primary-color);
     height: 100vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Brygada 1918', serif;
     line-height: 1;
 }
 

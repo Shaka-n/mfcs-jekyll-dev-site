@@ -5,8 +5,10 @@
     top: 1rem;
     height: 20px;
     width: 28px;
+    display: inline-block;
     cursor: pointer;
     @include transition-ease;
+
 
     &__burger{
         position: absolute;
