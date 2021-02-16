@@ -6,7 +6,7 @@
     background: white;
     background-color: $primary-color;
 
-    &__nav{
+    &__buttons{
         display: flex;
         width: 100%;
         color: white;
@@ -15,7 +15,7 @@
         padding-bottom: 5vh;
 
         &--previous{
-
+            width: 50%;
             &__arrow{
                 // content: "";
             padding: 8px 16px;
@@ -31,6 +31,7 @@
 
         &--next{
             position: absolute;
+            // width: 50%;
             right: 0;
 
             &__arrow{

@@ -1,0 +1,30 @@
+.jobs{
+    padding: 5vh;
+     
+    &__banner{
+        height: 40vh;
+        margin: auto;
+        text-align: center;
+        padding-top: 10vh;
+        background: linear-gradient(
+            to bottom,
+            rgba($primary-color, 0.5),
+            rgba($primary-color, 0.5)
+        ),
+        url($jobs-banner-image) ;
+        background-size: cover;
+        margin-block-end: 5vh;
+    }
+
+    &__body{ 
+        padding: 1rem;
+        line-height: 1.5rem;
+        font-size: 1.25rem;
+        background: #363635;
+        border-radius: 5px;
+    }
+
+    a{
+        color: $ternary-color;
+    }
+}

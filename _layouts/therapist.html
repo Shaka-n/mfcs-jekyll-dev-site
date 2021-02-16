@@ -2,20 +2,19 @@
 layout: default
 ---
 <div class="therapist">
-    <div class= "therapist__nav">
-    {%if page.previous.url != nil%}
-        <div class="therapist__nav--previous">
-            <a href="{{page.previous.url}}" class="therapist__nav--previous__arrow">&#8249;</a>
-            <span>{{page.previous.name}}</span>
-        </div>
-    {% endif %}
-    {% if page.next.url != nil%}
-        <div class="therapist__nav--next">
-            <span>{{page.next.name}}</span>
-            <a href="{{page.next.url}}" class="therapist__nav--next__arrow">&#8250;</a>
-        </div>
-    {% endif %}
- 
+    <div class="therapist__buttons">
+        {%if page.previous.url != nil%}
+            <div class="therapist__buttons--previous">
+                <a href="{{page.previous.url}}" class="therapist__buttons--previous__arrow">&#8249;</a>
+                <span>{{page.previous.name}}</span>
+            </div>
+        {% endif %}
+        {% if page.next.url != nil%}
+            <div class="therapist__buttons--next">
+                <span>{{page.next.name}}</span>
+                <a href="{{page.next.url}}" class="therapist__buttons--next__arrow">&#8250;</a>
+            </div>
+        {% endif %}
     </div>
     <div class="therapist__summary">
         <img class="therapist__summary--photo" src="/assets/img/therapists/{{ page.photo }}"/>

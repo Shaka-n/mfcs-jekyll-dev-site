@@ -6,6 +6,8 @@
 #   link: /blog.html
 - name: Meet The Therapists
   link: /meet-the-therapists.html
+- name: Career Opportunities
+  link: /career-opportunities
 # - name: Common Questions
 #   link: /faq.html
 # - name: Privacy Policy
