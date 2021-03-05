@@ -1,5 +1,4 @@
 .meet{
-    color: white;
 
     &__head{
         height: 40vh;
@@ -8,8 +7,8 @@
         background: 
             linear-gradient(
                 to bottom,
-                rgba($primary-color, 0.8),
-                rgba($primary-color, 0.8)
+                rgba($primary-color, 0.3),
+                rgba($primary-color, 0.3)
             ),
             url($meet-the-therapists_banner) ;
             background-size: cover;
@@ -20,7 +19,7 @@
             }
             p{
                 // padding-top: 2rem;
-                color: white;
+                color: $primary-color;
                 font-size: 1rem;
                 line-height: 1.5rem;
             }
@@ -30,13 +29,18 @@
     
     &__list{
         // padding-top: 1rem;
-        
+        color: $secondary-color;
+        a{
+            color: #000;
+        }
 
         ul{
             list-style-type: none;
             line-height: 1.5rem;
-
-            padding: 1rem;
+            columns: 3;
+            // -webkit-columns: 3;
+            // -moz-columns: 3;
+            // padding: 0.5rem;
 
             li {
                 word-break: break-all;

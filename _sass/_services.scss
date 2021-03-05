@@ -1,4 +1,5 @@
 .services-offered{
+    color: $primary-color;
     padding-top: 5vh;
     padding-bottom: 5vh;
     padding-left: 4vw;
@@ -22,6 +23,7 @@
     }
 
     &__body{
+        
         padding-bottom: 1rem;
         line-height: 1.25rem;
     }
